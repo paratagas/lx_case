@@ -1,0 +1,56 @@
+{{#if userEmail}}
+    <header>
+        <div class="container" id="maincontent" tabindex="-1">
+            <div class="row">
+                <div class="col-lg-12">
+                    {{#if userPhoto}}
+                        <img class="img-responsive" src="/images/{{ userPhoto }}" alt="">
+                    {{/if}}
+                    <div class="intro-text">
+                        <hr class="star-light">
+                        <span class="skills">Welcome {{ userEmail }}</span>
+                        <br>
+                        <div id="success"></div>
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+                                <a href="/logout" class="btn btn-lg btn-danger" role="button">Logout</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+{{/if}}
+
+<!-- Portfolio Grid Section -->
+<section id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Content for authorized persons</h2>
+                <hr class="star-primary">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 portfolio-item">
+                    <img src="/freelancer_theme/img/portfolio/cabin.png" class="img-responsive" alt="Cabin">
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                    <img src="/freelancer_theme/img/portfolio/cake.png" class="img-responsive" alt="Slice of cake">
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                    <img src="/freelancer_theme/img/portfolio/circus.png" class="img-responsive" alt="Circus tent">
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                    <img src="/freelancer_theme/img/portfolio/game.png" class="img-responsive" alt="Game controller">
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                    <img src="/freelancer_theme/img/portfolio/safe.png" class="img-responsive" alt="Safe">
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                    <img src="/freelancer_theme/img/portfolio/submarine.png" class="img-responsive" alt="Submarine">
+            </div>
+        </div>
+    </div>
+</section>

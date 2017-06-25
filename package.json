@@ -1,0 +1,47 @@
+{
+  "name": "LX_case",
+  "description": "Test full stack assignment",
+  "version": "0.0.0",
+  "homepage": "https://github.com/paratagas/lx_case",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paratagas/lx_case.git"
+  },
+  "author": {
+    "name": "Evgeni Sviridenko",
+    "email": "paratagas@gmail.com",
+    "url": "https://github.com/paratagas"
+  },
+  "tags": [
+    "node.js",
+    "express",
+    "mongodb",
+    "hbs",
+    "grunt"
+  ],
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.13.4",
+    "express-session": "^1.15.2",
+    "hbs": "~4.0.0",
+    "mongoose": "~4.9.4",
+    "morgan": "~1.7.0",
+    "request": "2.81.0",
+    "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "grunt": "^1.0.1",
+    "grunt-cafe-mocha": "^0.1.13",
+    "grunt-contrib-jshint": "^1.1.0",
+    "mocha": "^3.3.0",
+    "restler": "^3.4.0",
+    "nodemon": "^1.11.0"
+  },
+  "license": "MIT"
+}
