@@ -29,7 +29,7 @@ Lx case uses several open source projects to work properly and for tests:
 * Download and extract the [latest version of Lx case](https://github.com/paratagas/lx_case)
 * Install the dependencies and devDependencies:
 ```sh
-$ cd node_assignment
+$ cd lx_case
 $ npm install
 ```
 
